@@ -1,5 +1,5 @@
 import sys
-a=r"home/ubuntu/.keras/keras.json"
+a=r"/home/ubuntu/.keras/keras.json"
 def to_theano():
 	old=open(a).read()
 	new=old.replace("tensorflow","theano")
