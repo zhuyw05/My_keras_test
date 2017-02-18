@@ -21,7 +21,7 @@ from keras.datasets import imdb
 # set parameters:
 max_features = 10000
 maxlen = 400
-batch_size = 32
+batch_size = 256
 embedding_dims = 50
 nb_filter = 500
 filter_length = 3
