@@ -6,7 +6,7 @@ Gets to 0.8498 test accuracy after 2 epochs. 41s/epoch on K520 GPU.
 from __future__ import print_function
 import numpy as np
 np.random.seed(1337)  # for reproducibility
-
+import 
 from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation
